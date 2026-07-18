@@ -3,7 +3,7 @@ import React from 'react'
 const AiTools = () => {
     return (
         <div>
-            <section className='md:h-200 py-7'>
+            <section className='relative overflow-hidden md:h-200 py-7'>
                 <div className='h-fit flex flex-col items-center'>
                     <p className='text-[10px] border-amber-400 border rounded-xl px-2 text-amber-50 mb-3 bg-black'>CAPTION</p>
                     <h1 className='shadow-[0_0_50px_rgba(0,0,0,0.8)] bg-zinc-900 text-white text-4xl md:text-6xl font-extrabold'>Ai Tools</h1><p className='shadow-[0_0_50px_rgba(0,0,0,0.8)] bg-zinc-900 text-white text-4xl md:text-6xl font-extrabold'>Integration</p>
