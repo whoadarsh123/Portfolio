@@ -33,7 +33,7 @@ const home = () => {
           <h2 className='hover:text-amber-400 cursor-pointer transition-colors duration-200 w-full text-center md:w-auto'>Experience</h2>
         </div>
       </section>
-      <section className='text-white border mt-2 md:mt-5 border-zinc-900 rounded-2xl h-fit bg-zinc-800 p-4 md:p-8'>
+      <section className='text-white border mt-2 md:mt-5 border-zinc-900 rounded-2xl h-fit bg-zinc-800 p-2 md:p-8'>
         <Projects />
       </section>
       <section className='flex flex-col gap-15 zinc-900 overflow-hidden rounded-2xl border py-15 md:py-20  h-fit bg-zinc-800 mt-2 md:mt-5 px-6 sm:px-8 md:p-10'>
