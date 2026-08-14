@@ -2,7 +2,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Code2, Layers, Terminal } from "lucide-react";
 import Hospital from '../images/Hospital.png';
-import Gympro from '../images/Gympro.png';
+import ProjectImg from '../images/ProjectImg.png';
+import BakerySite from '../images/BakerySite.png';
 import Image from "next/image";
 
 
@@ -25,9 +26,20 @@ const projects = [
         subtitle: "INTELLIGENT DEVELOPMENT ENVIRONMENT",
         description: "A cloud-based real-time collaborative workspace designed for programming optimizations, featuring integrated telemetry metrics and terminal state management.",
         tech: ["Next.js", "Express", "Socket.io", "Docker"],
-        image: Gympro,
-        github: "https://github.com",
-        live: "https://example.com",
+        image: ProjectImg,
+        github: "https://github.com/whoadarsh123/Personalized-Fitness",
+        live: "https://personalized-fitness.vercel.app/",
+        icon: Terminal
+    },
+    {
+        id: 3,
+        title: "SIDDHI BAKERY",
+        subtitle: "ECOMMERSE WEBSITE",
+        description: "A cloud-based real-time collaborative workspace designed for programming optimizations, featuring integrated telemetry metrics and terminal state management.",
+        tech: ["Next.js", "React", "Framer Motion", "Lucide Icons"],
+        image: BakerySite,
+        github: "https://github.com/whoadarsh123/Siddhi-Bakery",
+        live: "https://shree-siddhi-bakery.vercel.app/#visit",
         icon: Terminal
     }
 ];
